@@ -1,3 +1,1 @@
-export function mergeSort(num) {
-  console.log("Hello from mergeSort");
-}
+export function mergeSort(num) {}
