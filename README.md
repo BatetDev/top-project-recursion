@@ -1,6 +1,6 @@
 # Recursion Project
 
-Solutions to recursion exercises from [The Odin Project](https://www.theodinproject.com/lessons/javascript-recursion).
+Solutions to Project: Recursion from [The Odin Project](https://www.theodinproject.com/lessons/javascript-recursion).
 
 ## Features
 

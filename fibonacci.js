@@ -32,19 +32,3 @@ export function fibsRec(n) {
 
   return [...prev, next];
 }
-
-/*
-fibsRec(8)
-  → fibsRec(7)
-    → fibsRec(6)
-      → fibsRec(5)
-        → fibsRec(4)
-          → fibsRec(3)
-            → fibsRec(2) → returns [0, 1]
-            ← compute next = 1 + 0 → [0, 1, 1]
-          ← compute next = 1 + 1 → [0, 1, 1, 2]
-        ← compute next = 2 + 1 → [0, 1, 1, 2, 3]
-      ← compute next = 3 + 2 → [0, 1, 1, 2, 3, 5]
-    ← compute next = 5 + 3 → [0, 1, 1, 2, 3, 5, 8]
-  ← compute next = 8 + 5 → [0, 1, 1, 2, 3, 5, 8, 13]
-*/
